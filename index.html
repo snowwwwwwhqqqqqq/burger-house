@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Burger House</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #0e0e0e;
+            color: #eaeaea;
+        }
+
+        header {
+            background: linear-gradient(135deg, #000, #1a1a1a);
+            color: #fff;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+            color: #ffb347;
+        }
+
+        nav {
+            background-color: #ff9800;
+            padding: 14px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #000;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 60px 30px;
+        }
+
+        .card {
+            background-color: #1a1a1a;
+            padding: 40px;
+            margin-bottom: 40px;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+            text-align: center;
+            border: 1px solid #2a2a2a;
+        }
+
+        .card h2 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            font-size: 16px;
+            color: #cfcfcf;
+        }
+
+        button {
+            margin-top: 25px;
+            background: linear-gradient(135deg, #ff9800, #ff6a00);
+            border: none;
+            padding: 14px 32px;
+            border-radius: 30px;
+            font-weight: bold;
+            font-size: 15px;
+            cursor: pointer;
+            color: #000;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(255,152,0,0.4);
+        }
+
+        footer {
+            background-color: #000;
+            color: #777;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🍔 Burger House</h1>
+    <p>Hambúrguer artesanal de verdade</p>
+</header>
+
+<nav>
+    <a href="index.html">Início</a>
+    <a href="cardapio.html">Cardápio</a>
+    <a href="sobre.html">Sobre</a>
+    <a href="contato.html">Contato</a>
+</nav>
+
+<div class="container">
+
+    <div class="card">
+        <h2>🔥 Cardápio Insano</h2>
+        <p>Hambúrgueres suculentos, carne de respeito e sabor absurdo.</p>
+        <a href="cardapio.html">
+            <button>Ver Cardápio</button>
+        </a>
+    </div>
+
+    <div class="card">
+        <h2>📍 Quem Somos</h2>
+        <p>A gente faz hambúrguer sem frescura, com ingrediente bom e ponto certo.</p>
+        <a href="sobre.html">
+            <button>Conhecer a História</button>
+        </a>
+    </div>
+
+    <div class="card">
+        <h2>📞 Contato Direto</h2>
+        <p>Falou, resolveu. Chama a gente e pede sem dor de cabeça.</p>
+        <a href="contato.html">
+            <button>Falar com a Burger House</button>
+        </a>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 Burger House — feito com fome 🍔</p>
+</footer>
+
+</body>
+</html>
